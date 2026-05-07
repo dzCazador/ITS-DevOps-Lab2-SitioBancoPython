@@ -224,4 +224,4 @@ def main(page: ft.Page):
 if __name__ == "__main__":
     # Agregamos web_renderer para compatibilidad
     #ft.app(target=main, port=8085, host="0.0.0.0", view=ft.WEB_BROWSER, web_renderer=ft.WebRenderer.HTML)
-    ft.app(target=main, view=ft.AppView.WEB_BROWSER)
+    ft.app(target=main,port=8086, view=ft.AppView.WEB_BROWSER)
