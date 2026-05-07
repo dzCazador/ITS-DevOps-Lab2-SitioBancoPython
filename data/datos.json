@@ -1,0 +1,172 @@
+{
+  "usuarios": [
+    {
+      "cedula": "1001234567",
+      "nombre": "Juan",
+      "apellido": "García",
+      "email": "juan.garcia@email.com",
+      "telefono": "+34 666 123 456",
+      "contrasena": "123456",
+      "fecha_registro": "2023-01-15"
+    },
+    {
+      "cedula": "1001234568",
+      "nombre": "María",
+      "apellido": "López",
+      "email": "maria.lopez@email.com",
+      "telefono": "+34 666 234 567",
+      "contrasena": "password123",
+      "fecha_registro": "2023-02-20"
+    },
+    {
+      "cedula": "1001234569",
+      "nombre": "Carlos",
+      "apellido": "Martínez",
+      "email": "carlos.martinez@email.com",
+      "telefono": "+34 666 345 678",
+      "contrasena": "seguridadmax",
+      "fecha_registro": "2023-03-10"
+    }
+  ],
+  "cuentas": [
+    {
+      "cedula_usuario": "1001234567",
+      "numero_cuenta": "ACC-1000001",
+      "tipo_cuenta": "Ahorros",
+      "saldo": 5000.00,
+      "fecha_creacion": "2023-01-15"
+    },
+    {
+      "cedula_usuario": "1001234567",
+      "numero_cuenta": "ACC-1000002",
+      "tipo_cuenta": "Corriente",
+      "saldo": 15000.00,
+      "fecha_creacion": "2023-06-01"
+    },
+    {
+      "cedula_usuario": "1001234568",
+      "numero_cuenta": "ACC-1000003",
+      "tipo_cuenta": "Ahorros",
+      "saldo": 8500.50,
+      "fecha_creacion": "2023-02-20"
+    },
+    {
+      "cedula_usuario": "1001234568",
+      "numero_cuenta": "ACC-1000004",
+      "tipo_cuenta": "Depósito a Plazo",
+      "saldo": 25000.00,
+      "fecha_creacion": "2023-07-01"
+    },
+    {
+      "cedula_usuario": "1001234569",
+      "numero_cuenta": "ACC-1000005",
+      "tipo_cuenta": "Corriente",
+      "saldo": 3200.75,
+      "fecha_creacion": "2023-03-10"
+    }
+  ],
+  "tarjetas": [
+    {
+      "cedula_usuario": "1001234567",
+      "numero_cuenta": "ACC-1000001",
+      "tipo_tarjeta": "Débito",
+      "numero_tarjeta": "4532 1234 5678 9010",
+      "vencimiento": "12/28",
+      "saldo_disponible": 5000.00
+    },
+    {
+      "cedula_usuario": "1001234567",
+      "numero_cuenta": "ACC-1000002",
+      "tipo_tarjeta": "Crédito",
+      "numero_tarjeta": "5425 2334 3010 9903",
+      "vencimiento": "08/27",
+      "limite_credito": 10000.00,
+      "deuda_actual": 2500.00
+    },
+    {
+      "cedula_usuario": "1001234568",
+      "numero_cuenta": "ACC-1000003",
+      "tipo_tarjeta": "Débito",
+      "numero_tarjeta": "4916 8724 6234 0398",
+      "vencimiento": "03/29",
+      "saldo_disponible": 8500.50
+    },
+    {
+      "cedula_usuario": "1001234568",
+      "numero_cuenta": "ACC-1000004",
+      "tipo_tarjeta": "Platino",
+      "numero_tarjeta": "3714 496353 20289",
+      "vencimiento": "05/27",
+      "limite_credito": 50000.00,
+      "deuda_actual": 8750.00
+    },
+    {
+      "cedula_usuario": "1001234569",
+      "numero_cuenta": "ACC-1000005",
+      "tipo_tarjeta": "Débito",
+      "numero_tarjeta": "6011 1111 1111 1117",
+      "vencimiento": "10/28",
+      "saldo_disponible": 3200.75
+    }
+  ],
+  "transacciones": [
+    {
+      "id_transaccion": "TRX-1001",
+      "tipo": "Compra",
+      "monto": 150.00,
+      "cuenta": "ACC-1000001",
+      "comercio": "Supermercado Centro",
+      "fecha": "2024-12-28 14:30:00"
+    },
+    {
+      "id_transaccion": "TRX-1002",
+      "tipo": "Transferencia",
+      "monto": 500.00,
+      "cuenta_origen": "ACC-1000002",
+      "cuenta_destino": "ACC-1000003",
+      "descripcion": "Pago a servicios",
+      "fecha": "2024-12-27 10:15:00"
+    },
+    {
+      "id_transaccion": "TRX-1003",
+      "tipo": "Depósito",
+      "monto": 1000.00,
+      "cuenta": "ACC-1000001",
+      "descripcion": "Depósito de nómina",
+      "fecha": "2024-12-26 09:00:00"
+    },
+    {
+      "id_transaccion": "TRX-1004",
+      "tipo": "Retiro",
+      "monto": 200.00,
+      "cuenta": "ACC-1000003",
+      "descripcion": "Retiro en cajero",
+      "fecha": "2024-12-25 16:45:00"
+    },
+    {
+      "id_transaccion": "TRX-1005",
+      "tipo": "Pago de Tarjeta",
+      "monto": 2500.00,
+      "cuenta": "ACC-1000002",
+      "descripcion": "Pago de tarjeta de crédito",
+      "fecha": "2024-12-24 11:20:00"
+    },
+    {
+      "id_transaccion": "TRX-1006",
+      "tipo": "Compra",
+      "monto": 45.50,
+      "cuenta": "ACC-1000005",
+      "comercio": "Gasolinera El Camino",
+      "fecha": "2024-12-23 17:30:00"
+    },
+    {
+      "id_transaccion": "TRX-1007",
+      "tipo": "Transferencia",
+      "monto": 750.00,
+      "cuenta_origen": "ACC-1000004",
+      "cuenta_destino": "ACC-1000005",
+      "descripcion": "Transferencia personal",
+      "fecha": "2024-12-22 13:00:00"
+    }
+  ]
+}

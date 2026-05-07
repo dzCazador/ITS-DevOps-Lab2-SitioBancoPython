@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Flet local files
+.flet/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and runtime files
+*.log
+*.pot
+*.pyc
+
+# Docker
+docker-compose.override.yml
+*.env
+
+# System files
+.DS_Store
+Thumbs.db

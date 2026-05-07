@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  bancoseguro:
+    build: .
+    ports:
+      - "8555:8555"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
